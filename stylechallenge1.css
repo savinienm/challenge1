@@ -1,0 +1,124 @@
+/* style challenge1.css */
+
+body {
+        background-color: hsl(204, 43%, 93%);
+        color: hsl(218, 22%, 67%);
+        font-family: "Karla", sans-serif;
+        font-size: 16px;
+        line-height: 1.5em;
+        width: 1440px;
+    }
+
+p {
+    margin-left: 45px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+    margin-left: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-left: 45px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 2em hsl(204, 43%, 80%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloc1 {
+    background-color: white;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bloc2 {
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    width: 100%; 
+    border-radius: 0px 0px 10px 10px; 
+}
+
+.bloc21 {
+    display: flex;
+    flex-flow: column;
+    background-color: hsl(179, 62%, 43%);
+    color : white;
+    width: 50%;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.bloc22 {
+    display: flex;
+    flex-flow: column;
+    background-color: hsl(179, 47%, 52%);
+    color : white;
+    width: 50%;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(71, 73%, 54%);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    box-shadow: 0 0 2em hsl(179, 62%, 30%);
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+
+.button:hover{
+    background-color: hsl(71, 73%, 40%);
+
+}
+
+#price {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-right: 10px;
+}
+
+#month {
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5em;
+}
+
+#why {
+    font-size: 0.8em;
+    color: hsl(204, 43%, 93%);
+    line-height: 1.7em;
+}
+
+#chapeau {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    margin-left: 45px;
+}
